@@ -4,4 +4,4 @@ This project utilizes mediapipe library to get landmark points of hand and using
 ## Code walkthrough
 - `ip_address.ino` file can be used to find the IP address of ESP8266 on the Wi-Fi network in case we aren't aware of it.
 - `transmitter.py` file figures out the hand gestures and sends them to ESP8266.
-- `esp_32_receiver.ino` is the file which is uploaded onto ESP8266 which performs actions based on the gestures identified by the python script.
+- `esp_8266_receiver.ino` is the file which is uploaded onto ESP8266 which performs actions based on the gestures identified by the python script.
